@@ -1,41 +1,19 @@
-boardwatch.in is distrowatch for electronic boards like Arduino and BeagleBone Black.
+[boardwatch.in](http://boardwatch.in) is [distrowatch](http://distrowatch.com) for electronic boards like Arduino and BeagleBone Black.  
 
-It includes
-   Microcontroller based boards like the Arduino UNO
-   Embedded Linux platforms like Beaglebone Black and Raspberry Pi
+- - - 
+#### Contributing a new board
+* You will need grip installed. Install it using
 
-Information about each board
-	    Image
-	    Pins
-		GPIO
-		ADC
-		PWM
-		I2C
-		SPI
-		Serial
-		Compatibility with Arduino IDE
+		pip install grip
+* Create a folder hierarchy as follows  
+|-- arduino 
+|     |-- uno 
+|     |     |-- ArduinoUno_R3_Front.jpg
+|     |     |-- index.html 
+|     |     `-- index.md
 
-		USB
-		Ethernet
-		Audio
-		HDMI
-		Supported operating systems
+* Copy the template index.md into the newly created index.md
+* Use gfm to compile it into index.html
 
-		Libraries
-			Python
-			Ruby
-			
-		Getting started guide
-		Projects based on *
-		Weekend hacks using
-	
-	    Designed by
-	    Link to design files
+		grip --gfm --export index.md
 
-	    Affiliate links
-
-
-Contact
-	Your favourite board missing ? Drop us a line here and we'll get right on it.	    
-
-Write script to check for 404s	    
