@@ -13,19 +13,21 @@
   *Ethernet Controller: W5100 with internal 16K buffer
   *Connection with Arduino on SPI port 
   * 2.1mm center-positive plug	
-  * 
+  
+  
+
 #### Interfaces
 
 |Type|Number|Count|
 |---|---|---|
-|GPIO|
-|ADC|
-|PWM|4
-|SPI|10,11,12,13
+|GPIO|none|---|
+|ADC|none|---|
+|PWM|4|---|
+|SPI|10,11,12,13|---|
 |I2C|
-|WiFi|
-|Ethernet|10
-|HDMI|
+|WiFi|none|---|
+|Ethernet|10|---|
+|HDMI|none|---|
 	
 
 #### [Datasheet](http://www.atmel.com/Images/doc8161.pdf)
