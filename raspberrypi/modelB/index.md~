@@ -18,7 +18,9 @@
 
 
 ####Interfaces
+
 |Type|About|
+|---|---|
 |GPIO|26-pin 2.54mm 
 |SPI|available
 |I2C|abailable
