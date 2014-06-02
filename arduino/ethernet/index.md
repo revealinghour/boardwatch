@@ -1,27 +1,33 @@
-# Name
+# Arduino Ethernet
+<img src="ArduinoEthernetFront450px.jpg" height="200" >
 
-Board pinout
-Clock speed
-Company/Organization
-OS supported
-Microcontroller/Microprocessor/Coprocessor
-Fritzing diagram
-Power supply ratings (positive sleeve symbol)
-Programming Languages supported
-Programming Languages available
-Interfaces
+
+####Company/Organization : Arduino
+####OS supported : NONE
+####Microcontroller : ATmega328
+####Memory : EEPROM-1KB , SRAM-2KB
+####Clock speed : 16 MHz
+####Power supply ratings 
+* Input Voltage : 7-12V (supplied from arduino board)
+* Connector
+  *Ethernet Controller: W5100 with internal 16K buffer
+  *Connection with Arduino on SPI port 
+  * 2.1mm center-positive plug	
+  * 
+#### Interfaces
+
 |Type|Number|Count|
+|---|---|---|
 |GPIO|
 |ADC|
-|PWM|
-|SPI|
+|PWM|4
+|SPI|10,11,12,13
 |I2C|
 |WiFi|
-|Ethernet|
+|Ethernet|10
 |HDMI|
 	
 
-Tutorials
-References
-Datasheet
-Schematics
+#### [Datasheet](http://www.atmel.com/Images/doc8161.pdf)
+#### [Schematics](http://arduino.cc/en/uploads/Main/arduino-ethernet-R3-schematic.pdf)
+#### [PCB Design](http://arduino.cc/en/uploads/Main/arduino-ethernet-R3-schematic.pdf)
