@@ -2,12 +2,12 @@
 <img src="ArduinoEthernetFront450px.jpg" height="200" >
 
 
-####Company/Organization : Arduino
-####OS supported : NONE
-####Microcontroller : ATmega328
-####Memory : EEPROM-1KB , SRAM-2KB
-####Clock speed : 16 MHz
-####Power supply ratings 
+#### Company/Organization : Arduino
+#### OS supported : NONE
+#### Microcontroller : ATmega328
+#### Memory : EEPROM-1KB , SRAM-2KB
+#### Clock speed : 16 MHz
+#### Power supply ratings 
 * Input Voltage : 7-12V (supplied from arduino board)
 * Connector
   *Ethernet Controller: W5100 with internal 16K buffer

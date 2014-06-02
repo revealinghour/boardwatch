@@ -3,13 +3,13 @@
 
 
 
-####Clock speed : 700MHz
-####Company: Raspberry Pi
-####OS supported : Arch Linux ARM, Debian GNU/Linux, Gentoo, Fedora, FreeBSD, NetBSD, Plan 9, Inferno, Raspbian OS, RISC OS, Slackware Linux
-####Memory : SDRAM-512MB
-####Microprocessor : ARM1176JZF-S
-####Fritzing diagram
-####Power supply ratings (positive sleeve symbol)
+#### Clock speed : 700MHz
+#### Company: Raspberry Pi
+#### OS supported : Arch Linux ARM, Debian GNU/Linux, Gentoo, Fedora, FreeBSD, NetBSD, Plan 9, Inferno, Raspbian OS, RISC OS, Slackware Linux
+#### Memory : SDRAM-512MB
+#### Microprocessor : ARM1176JZF-S
+#### Fritzing diagram
+#### Power supply ratings (positive sleeve symbol)
  * Power source : 5V via MicroUSB
  * Connectors :
    * UBS 2.0
@@ -17,7 +17,7 @@
 
 
 
-####Interfaces
+#### Interfaces
 
 |Type|About|
 |---|---|
